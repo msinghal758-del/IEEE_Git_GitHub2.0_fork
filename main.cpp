@@ -8,5 +8,9 @@ int main(){
     cout << "Enter your name: ";
     getline(cin, name);
     cout << "Hello, " << name << "!" << endl;
+
+    for (const char c : name){
+        cout << c << " ";
+    }
     return 0;
 }
